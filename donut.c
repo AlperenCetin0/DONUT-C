@@ -10,7 +10,11 @@ int main() {
         memset(z,0,7040);
         for(j=0; j < 6.28; j += 0.07) {
             for(i=0; i < 6.28; i += 0.02) {
-                
+                float c = sin(i);
+                float d = cos(j);
+                float e = sin(A);
+                float f = sin(j);
+                float g = cos(A);
                 float h = d + 2;
                 float D = 1 / (c * h * e + f * g + 5);
                 float l = cos(i);
